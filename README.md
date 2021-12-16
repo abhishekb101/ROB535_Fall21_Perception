@@ -1,5 +1,7 @@
 ## ROB535 Perception Image Classification Task Fall 2021
 ## Instructions
+No need to clone this project. You can directly run everything on colab
+
 First get this shared folder
 https://drive.google.com/drive/folders/1_mCLTbzKZMPgpDidFlrEOqSG8OuqFihU?usp=sharing
 
