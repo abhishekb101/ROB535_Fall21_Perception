@@ -34,7 +34,22 @@ Otherwise, you would need to change one paraemeter in section 0-3: change GOOGLE
 
 During evaluation, we found out that our 2 methods are performing well at different classes (see appendix, fig xxx confusion matrix). While the object detection network is better at predicting cars, utility, or off-road classes, the direct classifier performs better at other classes in the dataset where limited training samples are given in the training set. For this reason, we went ahead and developed an ensemble of the two methods based on the predicted classes.
 
-### Instructions
-No need to clone the project.
-Just run final_ensemble.ipynb from
-https://drive.google.com/drive/folders/1_mCLTbzKZMPgpDidFlrEOqSG8OuqFihU?usp=sharing
+## Appendix
+### Confusion matrix on the evaluation set for the object detection network
+![image](https://user-images.githubusercontent.com/39851166/146443284-01e96537-204c-46be-a2a5-51c1f1ed1c82.png)
+
+### Examples of correct object detection & classification under normal conditions 
+![download (4)](https://user-images.githubusercontent.com/39851166/146442923-ab616ba1-4f37-4bc7-9de0-9250d5b6efd5.png)
+![download](https://user-images.githubusercontent.com/39851166/146442982-56535b32-bae1-463b-8f80-33575a356a9a.png)
+![download (3)](https://user-images.githubusercontent.com/39851166/146442990-a8fee858-3417-4416-ae45-0178803d81c9.png)
+
+
+### Examples of correct object detection & classification under poor lighting, partial occlusions, or multiple targets
+![download (5)](https://user-images.githubusercontent.com/39851166/146442908-e732feb0-30bc-4c48-8c8c-227d473f45f4.png)
+![download (2)](https://user-images.githubusercontent.com/39851166/146442952-8117ffd7-9f64-40e2-8f5e-2f461ea13910.png)
+![download (1)](https://user-images.githubusercontent.com/39851166/146442972-035be039-2ced-49fd-bbcf-d93634ec022a.png)
+
+### Uneven distribution between classes
+![image](https://user-images.githubusercontent.com/39851166/146443228-0527adc6-bcc5-4bff-85ef-a6359727baf7.png)
+
+
