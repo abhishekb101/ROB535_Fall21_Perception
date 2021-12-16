@@ -1,10 +1,12 @@
-## ROB535_Perception
+## ROB535 Perception Image Classification Task Fall 2021
+
+### Introduction
 
 - Tasked with correctly classifying vehicle and other modes of transport images generated from a Game engine. Developed an ensemble of soft voting Image classifiers and Object detectors to achieve a maximum test set accuracy of 0.78 on the Kaggle leaderboard. Our team ranked 2 in the respective ROB535 Kaggle competition 2021.
 
 - The dataset contained 10204 snapshots out of which 7573 were used for training and the remaining 2631 for testing. From initial EDA we understood the heavy imbalance in the dataset, severe bias involved in images as many of them had very high auto correlations among each other. The training and test set distributions were very similar  and random samples indicated that Data augmentations would help us develop robust features and improve performance. 
 
-## Methodology
+### Methodology
 
 1. *Stacked Soft Voting Image Classifier using EfficientNetV2s*
 
@@ -24,7 +26,7 @@
 
 During evaluation, we found out that our 2 methods are performing well at different classes (see appendix, fig xxx confusion matrix). While the object detection network is better at predicting cars, utility, or off-road classes, the direct classifier performs better at xxx classes where limited training samples are given in the training set. For this reason, we went ahead and developed an ensemble of the two methods based on the predicted classes.
 
-## Instructions
+### Instructions
 No need to clone the project.
 Just run final_ensemble.ipynb from
 https://drive.google.com/drive/folders/1_mCLTbzKZMPgpDidFlrEOqSG8OuqFihU?usp=sharing
