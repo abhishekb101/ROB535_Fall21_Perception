@@ -9,7 +9,7 @@ Then right click on the main "project" folder, click "add shortcut to drive"
 ![image](https://user-images.githubusercontent.com/39851166/146440402-cee729e2-19f8-443c-9856-3b557753e537.png)
 
 If you directly add it to drive, you don't have to modify the colab file
-Otherwise, you would need to change one paraemeter in section 0-3: change GOOGLE_DRIVE_PATH_AFTER_MYDRIVE and add the folder you added your file
+Otherwise, you would need to change one paraemeter in section 0-3 called GOOGLE_DRIVE_PATH_AFTER_MYDRIVE
 ### Introduction
 
 - Tasked with correctly classifying vehicle and other modes of transport images generated from a Game engine. Developed an ensemble of soft voting Image classifiers and Object detectors to achieve a maximum test set accuracy of 0.78 on the Kaggle leaderboard. Our team ranked 2 in the respective ROB535 Kaggle competition 2021.
