@@ -51,7 +51,6 @@ During evaluation, we found out that our 2 methods are performing well at differ
 ![download (2)](https://user-images.githubusercontent.com/39851166/146442952-8117ffd7-9f64-40e2-8f5e-2f461ea13910.png)
 ![download (1)](https://user-images.githubusercontent.com/39851166/146442972-035be039-2ced-49fd-bbcf-d93634ec022a.png)
 
-### Uneven distribution between classes
+### Heavy class Imbalance in Training set
 ![image](https://user-images.githubusercontent.com/39851166/146443228-0527adc6-bcc5-4bff-85ef-a6359727baf7.png)
-
 
